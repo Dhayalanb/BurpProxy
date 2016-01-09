@@ -1,0 +1,25 @@
+{
+    "manifest_version" : 2,
+    "name" : "Title Changer",
+    "version" : "1.0",
+    "author" : "Dhayalan",
+    "icons":{
+        "128" : "Intercept.png"
+    },
+    "applications": {
+  "gecko": {
+    "id": "dhayalanpro@gmail.com"
+  }
+},
+    "browser_action":{
+        "default_title" : "Enable Burp "
+    },
+    "permissions":[
+        "tabs"  ,
+        "proxy"
+    ],
+    "background":{
+             "scripts":["background.js"]
+    }
+    
+}
